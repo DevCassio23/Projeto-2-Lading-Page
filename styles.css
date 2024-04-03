@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Creepster&family=Oswald:wght@200..700&family=Titan+One&display=swap');
+
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    
+}
+
+body {
+    background: url(./img/blue.jpg);
+    background-size: 100%;
+}
+
+.logo {
+    font-family: "Titan One", sans-serif;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    margin: 12px 30px;
+    padding: 50px;
+  
+}   
+
+.container {
+    
+    float: right;
+    margin-top: -80px;
+    margin-right: 90px;
+    padding: 50px;
+    
+}
+
+.container-item {
+    font-family: "Titan One", sans-serif;
+    margin-right: 50px;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: rgb(250, 248, 248);
+    text-decoration: underline;
+}
+
+.button-sign-up {
+    font-family:Sans-serif,Arial, Helvetica;
+    background: black;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.conteudo {
+    margin-top: 297px;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+.titulo {
+    
+    font-family: "Creepster", system-ui;
+    font-size: 70px;
+}
+
+.sub-titulo {
+    font-family: "Creepster", system-ui;
+    font-size: 70px;
+}
+
+
+.paragrafo {
+    font-family:Sans-serif,Arial, Helvetica;
+    margin-top: 15px;
+    width: 500px;
+    
+}
+
+.button-click-here {
+    font-family:Sans-serif,Arial, Helvetica;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    margin-left: 78px;
+    margin-bottom: 10px;
+    border:  none;
+    border-radius: 20px;
+    color: aliceblue;
+    background: black;
+    cursor: pointer;
+    }
+
+ 
